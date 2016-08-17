@@ -1,0 +1,16 @@
+language: python
+
+python:
+  - 3.5
+
+install:
+  - pip install -r requirements.txt
+  - pip install coveralls
+  - pip install pep8
+
+script:
+  - coverage run --omit=*.virtualenvs*,*virtualenv* src/manage.py test
+  - pep8 --count --show-source --exclude=migrations,src/gestion_entreprise,src/manage.py src/
+
+after_success:
+  - coveralls
