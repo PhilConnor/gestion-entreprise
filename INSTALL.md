@@ -24,7 +24,7 @@ pip install -r requirements.txt
 >**NOTE :** Cet exemple est pour un usage sous Debian
 
  ```
- cd ../src/gestion_entreprise/
+ cd src/
  python manage.py migrate
  ```
 
@@ -35,7 +35,6 @@ pip install -r requirements.txt
 >**NOTE :** Cet exemple est pour un usage sous Debian
  
 ```
-cd ../plateforme-de-vote-budgetaire/plateforme_budgetaire/
 python manage.py runserver
 ```
 
