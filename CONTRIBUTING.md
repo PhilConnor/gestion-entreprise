@@ -10,7 +10,7 @@ Les contributions externes sont les bienvenues !
 4. _Forkez_ le dépôt
 5. Installez l'environnement. Tout est dans le fichier INSTALL.md
 
-# Contribuer à Feast Community
+# Contribuer au projet
 1. Créez une branche pour contenir votre travail
 2. Faites vos modifications
 3. Ajoutez un test pour votre modification. Seules les modifications de documentation et les réusinages n'ont pas besoin de nouveaux tests
