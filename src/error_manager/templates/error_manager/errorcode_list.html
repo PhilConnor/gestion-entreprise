@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <table id="error_codes_table" class="display">
+        <thead>
+            <tr>
+                <th>code</th>
+                <th>description</th>
+                <th>url</th>
+            </tr>
+        </thead>
+        <tbody>
+           {% for errorcode in object_list %}
+            <tr>
+                <td > {{ errorcode.code }} </td>
+                <td>{{ errorcode.description }}</td>
+                <td>{{ errorcode.url }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
