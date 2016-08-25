@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+		<link rel="stylesheet" href="{% static 'DataTables/DataTables-1.10.12/media/css/jquery.dataTables.css' %}">
+		<script src="{% static 'jQuery/jquery-3.1.0.min.js' %}"></script>
+		<script src="{% static 'DataTables/DataTables-1.10.12/media/js/jquery.dataTables.js' %}"></script>
+
+	    <script>
+	        $(document).ready(function(){
+	            $('#error_codes_table').DataTable();
+	        });
+	    </script>
+    </head>
+
+    <body>        
+        {% block content %}{% endblock %}
+    </body>
+
+</html>
+
