@@ -1,3 +1,9 @@
 from django.contrib import admin
+from api.models import *
 
-# Register your models here.
+admin.site.register(Categorie)
+admin.site.register(Article)
+admin.site.register(Reduction)
+admin.site.register(Fournisseur)
+admin.site.register(Prix)
+admin.site.register(LigneCatalogue)
